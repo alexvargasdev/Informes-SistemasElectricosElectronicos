@@ -1,0 +1,88 @@
+\thispagestyle{fancy}
+\begin{center}
+	\LARGE{\textbf{Circuitos Serie-Paralelo}}
+\end{center}
+\section{Objetivos}
+Al finalizar esta experiencia, usted estará capacitado para:
+\begin{enumerate}
+	\item Calcular la resistencia equivalente de circuitos mixto (serie-paralelo).
+	\item Usar el DMM para medir la resistencia equivalente  de circuitos mixto (serie-paralelo). 
+\end{enumerate}
+\section{Conocimientos previos}
+La mayoría de los circuitos resistivos pueden ser convertidos a circuitos mas sencillos reemplazando las combinaciones de resistores en serie o en paralelo por sus resistencias equivalentes.
+Para ello, se reemplaza metódicamente toda combinación serie o paralelo  por una única resistencia equivalente. Este procedimiento se repite hasta que todas las combinaciones paralelo y serie  hayan sido eliminadas. De esta manera, los circuitos  serie-paralelo pueden ser reducidos a circuitos simples. 
+\section{Equipo}
+El siguiente equipo es necesario para la realización del experimento.
+\begin{enumerate}
+	\item Módulo de experimentos.
+	\item DMM (Multímetro digital).
+\end{enumerate}
+\section{Procedimiento}
+\begin{enumerate}
+	\item Registre los códigos de colores de los resistores $R_{1}, R_{2}, R_{3}, R_{4}, R_{5}, R_{6}, R_{7}, R_{8}$ en el cuadro 1.
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|c|c|}
+			\hline
+			Resistor & Valor\\ \hline
+			$R_{1}$&0.1k\\ \hline
+			$R_{2}$&0.47k\\ \hline
+			$R_{3}$&0.68k\\ \hline
+			$R_{4}$&0.27k\\ \hline
+			$R_{5}$&22k\\ \hline
+			$R_{6}$&27k\\ \hline
+			$R_{7}$&47k\\ \hline
+			$R_{8}$&39k\\ \hline
+		\end{tabular}
+		\caption{}
+	\end{table}
+	\item Ahora, convierta la red conformada por los resistores $R_{1}$ al $R_{4}$  a sus resistores equivalente utilizando el siguiente método:
+	\begin{enumerate}
+		\item Convierta en$R_{2}$ y $R_{3}$ (en paralelo) en una sola resistencia equivalente.
+		\\ $R_{2}$  en paralelo con $R_{3}$ es igual 277.91 
+		\item El circuito ahora contiene en serie a $R_{1}$, la resistencia calculada anteriormente  y  $R_{4}$.
+		\\ Resistencia equivalente es igual a 647.91
+	\end{enumerate}
+	\item Convierta la red conformada por los resistores $R_{5} $ al $R_{8}$ a sus resistores equivalentes utilizando el siguiente método:
+	\begin{enumerate}
+		\item Calcule el resistor equivalente de $R_{6}$ y $R_{8}$.
+		\\ El valor equivalente de $R_{6}$ y $R_{8}$ es igual 66$k\Omega$
+		\item Esta nueva resistencia está en paralelo con $R_{7}$. Calcule el valor de esta combinación.
+		\\ $R_{7}$ en paralelo con el valor anterior es igual a $27.45k\Omega$
+		\item Este valor está en serie con $R_{5}$. Calcule la resistencia total equivalente de toda la red.
+		\\ La resistencia equivalente de la red es igual a $49.45k\Omega$
+	\end{enumerate}
+	\item Mida con el DMM la resistencia equivalente de la red formada por $R_{1}$ hasta $R_{4}$.
+	\\ Resistencia equivalente $R_{1} a R_{4}$ es igual a $467.91k \Omega$
+	\item Mida resistencia equivalente de la red que consta de $R_{5} a R_{8}$ .
+	\\ Resistencia equivalente $R_{5} a R_{8}$  es igual a $49.5411 K \Omega$
+	\item Compare sus mediciones con sus cálculos. Si la diferencia entre ambos es mayor del $10\%$, consulte a su profesor.
+	\begin{table}[htbp]
+		\centering
+		
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\multirow{2}{*}{Red de resistores} & \multicolumn{2}{c|}{Valor} \\
+			\cline{2-3}
+			& Calculado & Medido \\
+			\hline
+			$R_{1} - R_{4}$ &647.9k  & 647.69k \\
+			\hline
+			$R_{5} - R_{8}$ &49.45k &49.9k \\
+			\hline
+		\end{tabular}
+	\end{table}
+	\\ Esta es la parte del experimento, el circuito sufrirá una modificación.
+	\item El circuito ($R_{1}, R_{2}, R_{3} $ y $R_{4}$) ha sufrido modificado.
+	\\ Ubique los resistores donde el cambio tuvo lugar midiendo resistencia con le DMM.
+	\\ Nueva resistencia total es igual a 
+	\\$R_{1}, R_{2}, y R_{4}$ están conectadas en serie, y $R_{3}$ fue desconectado del circuito. ¿Qué cambio se introdujo en el circuito?
+	\item EL circuito formado por $R_{5}, R_{6}, R_{7}$ y$ R_{8}$ ha sido modificado.
+	\\ Ubique el lugar donde el cambio tuvo lugar midiendo resistencias con el DMM. ¿Qué cambio se introdujo en el circuito?
+	\\Cuando quitamos la resistencia R13 en paralelo, ahora la resistencia equivalente será la suma de las resistencias R11, R12 y R14.
+	\item EL circuito formado por  $R_{5}, R_{6}, R_{7}$ y$ R_{8}$ ha sido modificado. 
+	\\ Cuando se quitó la resistencia R17 del circuito, pudimos visualizar que la resistencia equivalente aumento a lo del anterior.
+	\\ Ubique el lugar donde el cambio tuvo lugar midiendo resistencias con el DMM. \\ La nueva resistencia total es igual a $88k\Omega$
+\end{enumerate}
+\section{Conclusiones}
+En conclusión, podemos decir que es necesario conocer los códigos de colores para así saber el valor de la resistencia que se está trabajando y también saber si las resistencias están conectadas en paralelas o serie ya que la resistencia equivalente varia según se ha el caso.
